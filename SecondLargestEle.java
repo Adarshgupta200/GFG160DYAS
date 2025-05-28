@@ -20,8 +20,7 @@ public class SecondLargestEle {
         int arr2[] = {10, 5, 10};
         int arr3[] = {10, 10, 10};
 
-        System.out.println(getSecondLargest(arr1)); // Output: 34
-        System.out.println(getSecondLargest(arr2)); // Output: 5
-        System.out.println(getSecondLargest(arr3)); // Output: -1
-    }
+        System.out.println(getSecondLargest(arr1)); 
+        System.out.println(getSecondLargest(arr2)); 
+        System.out.println(getSecondLargest(arr3)); 
 }
