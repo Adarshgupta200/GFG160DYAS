@@ -1,3 +1,4 @@
+
 class NextPermutation {
     public void NextPermutation(int arr[]){
         int n = arr.length;
@@ -31,6 +32,8 @@ class NextPermutation {
         arr[i] = arr[j];
         arr[j] = temp;
     }
+
+    
     public static void main(String[] args) {
         int[] arr1 = {1, 2, 3, 6, 5, 4};
         NextPermutation np = new NextPermutation(); 
@@ -38,4 +41,3 @@ class NextPermutation {
         System.out.println("Output 1: " + java.util.Arrays.toString(arr1));
     }
 }
-
