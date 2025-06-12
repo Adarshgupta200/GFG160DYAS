@@ -1,4 +1,4 @@
-// User function Template for Java
+
 class StockBuyandSell {
     public int maximumProfit(int prices[]) {
         // code here
@@ -15,6 +15,6 @@ class StockBuyandSell {
         StockBuyandSell sbs = new StockBuyandSell();
         int[] prices = {1, 5, 3, 8, 12};
         int result = sbs.maximumProfit(prices);
-        System.out.println("Maximum Profit: " + result); // Output: Maximum Profit: 11
+        System.out.println("Maximum Profit: " + result); 
     }
 }
